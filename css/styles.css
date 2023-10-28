@@ -1,0 +1,25 @@
+
+/*Footer*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+.article-1 {
+  margin-left: -22%;
+  width: 100%;
+  text-align: justify;
+  margin-top: -40%;
+  height: auto;
+}
+
+.article-1 .article-image {
+  margin-left: -22%;
+  width: 39vw;
+}

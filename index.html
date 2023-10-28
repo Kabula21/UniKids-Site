@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Inclua a biblioteca Font Awesome via CDN em seu documento HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+    <title>Unikids Educação Infantil</title>
+</head>
+<body>
+
+<!--NavBar-->
+
+<nav>
+  <div class="nav-wrapper teal lighten-2">
+    <a class="brand-logo left "><img src="logos/UniKids 02.png" style="width: 20%; margin-left: 20%;"></a>
+    <ul class="center hide-on-med-and-down valign-wrapper" style="margin-left: 60%;">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#cards">Notícias</a></li>
+      <li><a href="#contact-form">Contato</a></li>      
+    
+    <div class="input-field right" style="margin-left: 20%;">
+      <i class="material-icons prefix">search</i>
+      <input id="search" type="text" placeholder="Pesquisar">
+      
+    </div>
+  </ul>
+</nav>
+  
+   
+
+
+<!--Banner-->
+
+<div class="carousel carousel-slider">
+  <a class="carousel-item"><img src="images/banner.jpg"></a>
+  <a class="carousel-item"><img src="images/banner2.jpg"></a>
+  <a class="carousel-item"><img src="images/banner3.jpg"></a>
+  </div>
+
+<!--Cards-->
+
+  <h4 id= "cards"class="text" style="color: black; background: none; width: 100%; margin-left: 0.5%;"> <i class="material-icons">newspaper</i><b>Unikids News</b><hr></h4>
+  <div class="row">
+  <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/criancas1.jpg">
+        <span class="card-title"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action"><i class="material-icons">grade</i>
+        <a href="noticias.html">Leia</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/criancas2.jpg">
+        <span class="card-title"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action"><i class="material-icons">grade</i>
+        <a href="noticias.html">Leia</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/criancas3.jpg">
+        <span class="card-title"></span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action"><i class="material-icons">grade</i>
+        <a href="noticias.html">Leia</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Form Contato-->
+
+<div class="container" style="margin-left: 0%;">
+  <div class="row">
+    <div class="col s12 l8">
+      <h3><i class="material-icons">description</i>Formulário de Contato</h3>
+      <form id="contact-form">
+        <div class="input-field">
+          <input type="text" id="name" name="name" required>
+          <label for="name">Nome</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" name="email" required>
+          <label for="email">E-mail</label>
+        </div>
+        <div class="input-field">
+          <textarea id="message" class="materialize-textarea" name="message" required></textarea>
+          <label for="message">Mensagem</label>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+          <i class="material-icons left">send</i>
+        </button>
+      </form>
+    </div>
+  </div>
+    <!--Localizaçao-->
+    <div class="col s12 l4" style="margin-left: 70%; align-content: center; margin-top: -32%;">
+      <h3><i class="material-icons">place</i> Onde Estamos</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7904012.510344223!2d-46.01770800942146!3d-14.691027151716016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5e7b2f5744f%3A0x3459a5a54ba5f2be!2sCol%C3%A9gio%20Uni%20Kids!5e0!3m2!1spt-BR!2sbr!4v1698431482995!5m2!1spt-BR!2sbr" width="760vw" height="300" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </div>
+
+
+<!--footer-->
+
+<footer class="page-footer teal lighten-2" >
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+            <div class="logo"><img src="logos/UniKids 02.png" alt="logo" style="width: 40%;"></div>
+          <p class="grey-text text-lighten-4">Valorizando o ensino para toda a vida.<br>R. Francisco Zanela, 64 - Vila Constança, São Paulo - SP, 02256-160<br>
+            <i class="material-icons">phone</i>(011)2951-5619</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Redes Sociais</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook"></i> Facebook</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+      © 2023 Todos os Direitos Reservados - Anderson Fernandes e Gabriel Lima      
+      </div>
+    </div>
+  </footer>
+
+  <div class="whatsapp">
+    <a
+      href="https://wa.me/5579981338664?text=Olá%20gostaria%20de%20um%20orçamento!"
+      style="
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 10px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 1000; transition: background-color 0.3s ease-in-out;"
+      target="_blank"
+    >
+    <img src="./icon/whatsapp.svg" alt="WhatsApp" style="width: 50px; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);">
+    </a>
+  </div>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Importe a API do Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DO_GOOGLE_MAPS"></script>
+</body>
+</html>
