@@ -12,6 +12,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!-- CSS  -->
+    
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -163,30 +164,20 @@
     </div>
   </footer>
 
-  <div class="whatsapp">
-    <a
-      href="https://wa.me/5579981338664?text=Olá%20gostaria%20de%20um%20orçamento!"
-      style="
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 20px;
-        right: 10px;
-        background-color: #25d366;
-        color: white;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        z-index: 1000; transition: background-color 0.3s ease-in-out;"
-      target="_blank"
-    >
-    <img src="./icon/whatsapp.svg" alt="WhatsApp" style="width: 50px; position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);">
-    </a>
+  <!--Grupo de Botões-->
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons" style="font-size: 45px;">expand_less</i></a>
+    <ul class="actions ">
+      <li><a class="btn-floating purple" id="abrirPopup" title="Abrir Grupo"><i class="material-icons">group</i></a></li>
+      <li><a class="btn-floating green" href="https://wa.me/5579981338664?text=Olá%20gostaria%20de%20um%20orçamento!" title="Whatsapp"><i class="material-icons">person_pin</i></a></li>
+    </ul>
+<div id="popupContent" style="display: none;"></div>
   </div>
+
     <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
